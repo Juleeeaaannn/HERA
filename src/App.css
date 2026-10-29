@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Average", sans-serif; 
+  --color-soft-pink: #f4dcdc;
+  --color-wine: #6c0820;
+  --color-green: #c9d58b;
+  --color-mustard:;
+  --color-bright-pink: #fe9bb8;
+  --color-soft-blue: #a2bec7;
+  --color-soft-purple: #d58be9;
+}
+
+@font-face {
+  font-family: Average;
+  font-style: normal;
+  font-weight: 100 300;
+  font-display: swap;
+  src: url("/fonts/AverageSans-Regular.ttf") format("ttf");
+}
